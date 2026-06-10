@@ -42,7 +42,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col bg-ivory text-forest selection:bg-forest selection:text-ivory">
         {children}
-        <Script src="https://checkout.razorpay.com/v1/checkout.js" strategy="lazyOnload" />
+        <Script src="https://checkout.razorpay.com/v1/checkout.js" strategy="afterInteractive" />
       </body>
     </html>
   );
